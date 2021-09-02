@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center"
+    android:orientation="vertical">
+
+    <EditText
+        android:id="@+id/resName"
+        android:layout_width="280dp"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:hint="식당 이름"
+        android:inputType="textPersonName" />
+
+    <EditText
+        android:id="@+id/resLocation"
+        android:layout_width="280dp"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:hint="식당위치"
+        android:inputType="textShortMessage" />
+
+    <EditText
+        android:id="@+id/resKind"
+        android:layout_width="280dp"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:hint="식당 종류"
+        android:inputType="textShortMessage" />
+
+    <EditText
+        android:id="@+id/resPrice"
+        android:layout_width="280dp"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:hint="음식 가격"
+        android:inputType="textEmailAddress" />
+
+    <TextView
+        android:id="@+id/regAsk"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_row="5"
+        android:layout_column="0"
+        android:layout_marginBottom="10dp"
+        android:gravity="center"
+        android:paddingTop="30dp"
+        android:text="등록하시겠습니까?"
+        android:textStyle="bold"
+        android:textColor="#3F51B5"
+        android:textSize="15dp" />
+
+    <Button
+        android:id="@+id/registerButton"
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:layout_row="6"
+        android:layout_column="0"
+        android:layout_gravity="center"
+        android:textSize="20dp"
+        android:backgroundTint="#74B0E1"
+        android:text="등록하기" />
+
+</LinearLayout>

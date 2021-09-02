@@ -1,0 +1,172 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center">
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:orientation="horizontal">
+
+        <EditText
+            android:id="@+id/enterName"
+            android:layout_width="280dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:ems="10"
+            android:hint="이름"
+            android:inputType="textPersonName" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="280dp"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:orientation="horizontal">
+
+        <EditText
+            android:id="@+id/enterID"
+            android:layout_width="150dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:ems="10"
+            android:hint="아이디"
+            android:inputType="textShortMessage" />
+
+        <Button
+            android:id="@+id/enterIDCheckButton"
+            android:layout_marginLeft="10dp"
+            android:layout_width="100dp"
+            android:layout_height="40dp"
+            android:text="중복확인"
+            android:backgroundTint="#74B0E1"
+            android:textSize="15dp"/>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="280dp"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:orientation="horizontal">
+
+        <EditText
+            android:id="@+id/enterNum"
+            android:layout_width="150dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:ems="10"
+            android:hint="사업자 번호"
+            android:inputType="textShortMessage" />
+
+        <Button
+            android:id="@+id/enterNumCheckButton"
+            android:layout_marginLeft="10dp"
+            android:layout_width="100dp"
+            android:layout_height="40dp"
+            android:text="중복확인"
+            android:backgroundTint="#74B0E1"
+            android:textSize="15dp"/>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="280dp"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:orientation="horizontal">
+
+        <EditText
+            android:id="@+id/enterEmail"
+            android:layout_width="150dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:ems="10"
+            android:hint="이메일"
+            android:inputType="textEmailAddress" />
+
+        <Button
+            android:id="@+id/enterEmailCheckButton"
+            android:layout_marginLeft="10dp"
+            android:layout_width="100dp"
+            android:layout_height="40dp"
+            android:text="중복확인"
+            android:backgroundTint="#74B0E1"
+            android:textSize="15dp"/>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="280dp"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:orientation="horizontal">
+
+        <EditText
+            android:id="@+id/enterPW"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:ems="10"
+            android:hint="비밀번호"
+            android:inputType="textPassword" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="280dp"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:orientation="horizontal">
+
+        <EditText
+            android:id="@+id/enterPWCheck"
+            android:layout_width="150dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:ems="10"
+            android:hint="비밀번호 확인"
+            android:inputType="textPassword" />
+
+        <Button
+            android:id="@+id/enterPWCheckButton"
+            android:layout_marginLeft="10dp"
+            android:layout_width="100dp"
+            android:layout_height="40dp"
+            android:text="일치확인"
+            android:backgroundTint="#74B0E1"
+            android:textSize="15dp"/>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="80dp"
+        android:gravity="center"
+        android:orientation="horizontal">
+
+        <Button
+            android:id="@+id/registerButton"
+            android:layout_width="120dp"
+            android:layout_height="wrap_content"
+            android:layout_marginRight="25dp"
+            android:backgroundTint="#74B0E1"
+            android:text="가입하기" />
+
+        <Button
+            android:id="@+id/cancelButton"
+            android:layout_width="120dp"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="25dp"
+            android:backgroundTint="#74B0E1"
+            android:text="취소하기" />
+
+    </LinearLayout>
+
+
+</LinearLayout>
